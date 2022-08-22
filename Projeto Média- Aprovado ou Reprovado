@@ -20,7 +20,7 @@ Inicio
  escreva("Sua média é")
  escreval(media)
  se(media>=6)entao
- escreva("VocÊ foi aprovado! =)")
+ escreva("Você foi aprovado! =)")
  senao
  escreva("Você foi reprovado! =(")
  fimse
