@@ -34,3 +34,5 @@ Inicio
  divisao <- n1 / n2
  escreva("A divisão dos números é:")
  escreval(divisao)
+ 
+ Fimalgoritmo
