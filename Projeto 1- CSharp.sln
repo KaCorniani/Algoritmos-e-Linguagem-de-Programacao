@@ -1,25 +1,18 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto 1- CSharp", "Projeto 1- CSharp\Projeto 1- CSharp.csproj", "{CFA0883F-1AC2-4EA3-B42B-D226B5A819DE}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFA0883F-1AC2-4EA3-B42B-D226B5A819DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFA0883F-1AC2-4EA3-B42B-D226B5A819DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFA0883F-1AC2-4EA3-B42B-D226B5A819DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFA0883F-1AC2-4EA3-B42B-D226B5A819DE}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1955ACF4-0E25-4B80-A441-F47C3EDE6712}
-	EndGlobalSection
-EndGlobal
+using System;
+
+namespace Projeto_1__CSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Olá ");
+            Console.WriteLine("mundo !");
+            Console.Write("Entre com seu nome: ");
+            String nome = Console.ReadLine();
+            Console.Write("Bom dia, ");
+            Console.Write(nome);
+            Console.WriteLine("!");
+        }
+    }
+}
