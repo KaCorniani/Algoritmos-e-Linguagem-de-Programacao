@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Projeto_3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double n1, n2, mult;
+            Console.WriteLine("Calcule a área do quadrado.");
+            Console.Write("Digite o valor do lado: ");
+            n1 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o outro valor: ");
+            n2 = double.Parse(Console.ReadLine());
+            mult = n1 * n2;
+            Console.Write("A área do quadrado é de: ");
+            Console.WriteLine(mult);
+            
+
+
+        }
+    }
+}
