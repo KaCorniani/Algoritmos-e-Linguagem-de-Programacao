@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Projeto_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double n1, n2, soma;
+            Console.Write("Digite um número: ");
+            n1 = double.Parse(Console.ReadLine());
+            Console.Write("Digite outro número:");
+            n2 = double.Parse(Console.ReadLine());
+            soma = n1 + n2;
+
+            Console.Write("A soma dos números é: ");
+            Console.WriteLine(soma);
+        }
+    }
+}
