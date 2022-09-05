@@ -1,0 +1,29 @@
+namespace Projeto_If_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x, y;
+            Console.WriteLine("Digite o primeiro número: ");
+            x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número: ");
+            y = double.Parse(Console.ReadLine());
+            if (x > y)
+            {
+                Console.WriteLine("{0} é maior que {1}", x, y);
+            }
+            else
+             {
+                if (x==y)
+                {
+                    Console.WriteLine("{0} é igual a {1}", x, y);
+                }
+                else
+                { Console.WriteLine("{0} é maior que {1}", y, x);
+                }
+                    
+            }
+        }
+    }
+}
