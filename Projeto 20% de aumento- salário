@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lista_de_ex
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string nome;
+            double salarioinicial, vendas, salariofinal, vendaspercent;
+            Console.Write("Digite seu nome: ");
+            nome = Console.ReadLine();
+            Console.Write("Digite seu salário fixo: R$");
+            salarioinicial = double.Parse(Console.ReadLine());
+            Console.Write("Digite o valor total de vendas: R$");
+            vendas = double.Parse(Console.ReadLine());
+            vendaspercent = vendas + (vendas * 0.20);
+            salariofinal = vendaspercent + salarioinicial;
+            Console.WriteLine("{0}, seu salário fixo é de R${1}, e seu salário final é de R${2}", nome, salarioinicial, salariofinal);    
+        }
+    }
+}
