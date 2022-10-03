@@ -1,0 +1,10 @@
+     static void Main(string[] args)
+        {
+            double resultado;
+            resultado = MP(5, 7);
+            Console.WriteLine(resultado);
+        }
+        public static double MP(double x, double y)
+        {
+            return x * y;
+        }
