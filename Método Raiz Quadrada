@@ -1,0 +1,12 @@
+static void Main(string[] args)
+        {
+            double raiz;
+            raiz = ret(9);
+            Console.WriteLine(raiz);
+        }
+
+        public static double ret (double b)
+        {
+           double result = (Math.Sqrt(b));
+            return result;
+        }
